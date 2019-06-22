@@ -57,7 +57,50 @@ Will only take out the first 5.
 
 Does not return item that is removed since we already know what we are removing.
 
+### index
+
+numbers = [1,2,3,4]
+numbers.index(9)
+
+or 
+
+numbers.index(item, starting_index)
+numbers.index(item, starting_index, ending_index)
+
+### count
+list.count(item) and returns how many time it appears
+numbers = [1,2,3,4]
+
+numbers.count(2) === 1 since it only appears once
 
 
+### reverse 
 
+numbers = [1,2,3,4]
 
+numbers.reverse()
+
+changes the actual list.
+
+>>> numbers = [1,2,3,4]
+>>> 
+>>> numbers.reverse()
+>>> numbers
+[4, 3, 2, 1]
+>>> 
+
+### sort 
+
+sort items (in place)
+
+another_List = [6,4,1,2,5]
+
+another_list = [1,2,4,5,6]
+
+### Join 
+
+words = ["coding", "is", "fun"]
+
+list = "I am friends with".join(words)
+
+takes a list and turns it into a string.
