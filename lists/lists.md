@@ -35,3 +35,31 @@ friends[-1] would print "Michael"
 
 "Ashley" in friends # True
 "Michael" in friends # False
+
+## Iterating Over Arrays
+
+numbers = [1,2,3,4]
+
+for number in numbers:
+    print(number)
+
+Another Example:
+
+numbers2 = [4,5,6,7,8,9]
+for num in numbers2:
+    print(num*num)
+
+can also square things like this
+
+colors = ["purple", "teal", "magenta", "crimson", "emerald"]
+
+index = 0
+
+while index < len(colors):
+    print(colors[index])
+    index+=1
+
+Make sure you increase the index, or else it will just print purple over and over again.
+
+## List Methods
+
