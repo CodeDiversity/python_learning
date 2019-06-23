@@ -104,3 +104,41 @@ words = ["coding", "is", "fun"]
 list = "I am friends with".join(words)
 
 takes a list and turns it into a string.
+
+### Slice
+
+some_list[start:end:step]
+
+list = [1,2,3,4]
+first_list[1:] # [2,3,4]
+first_list[-1:] Last element is sliced
+
+0: would just make a copy of the list (doesn't change original)
+
+Negative numbers [-2:] would return last two items in list
+
+Second Param: is exclusive
+
+[:2] would begin at 0 and exclude the second index.
+[1:3] would return [2,3]
+
+Third Param: Step: 
+
+Number to count at time (how many to skip)
+
+1::2 would start at 1, no end, and step by 2.
+
+string = "Hello"
+string[::-1]
+ returns 'olleH'
+
+Also works with strings to reverse them.
+
+Can chain slices together as well.
+
+### Swapping Values
+
+Names = ["James", "Michael"]
+
+names[0],names[1] = names[1], names[0]
+
