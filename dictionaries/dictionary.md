@@ -11,3 +11,10 @@ instructor = {
 cat2 = dict{name="kitty", age=0.5}
 or
 cat = {"name":"blue", "age":0.5}
+
+using dict you don't need the parenthesis around the key.
+
+instructor["name"] would print "Michael" can access values like this.
+
+Accessing Individual Values
+ 
