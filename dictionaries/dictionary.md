@@ -62,3 +62,11 @@ get
 d = dict(a=1, b=2, c=3)
 
 d.get(a) = 1
+
+Pop (will remove an item)
+
+d.pop("a") will remove the key / value.
+
+d.popitem() will remove something at random.
+
+d.update() will take a dictionary and add it to another dictionary.
