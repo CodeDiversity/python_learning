@@ -32,8 +32,33 @@ for value in instructor.values()
     print value
 
 
-
 for k, v in instructor.items():
     print(f"key is {k} and value is {v}")
 
 No specific order is guaranteed on this list.
+
+## In in dictionary 
+
+"name" in instructor returns true but this is only looking at the keys, but if we need the values, need to use .values()
+
+28 in instructor.values() would return true.
+
+## Methods
+
+clear will clear all the keys and value sin a dictionary 
+
+d = dict(a=1)
+d.clear() this would clear it out.
+c = d.copy()
+
+fromkeys 
+
+{}.fromkeys("a", "b") returns {"a":"b"}
+
+new_user = {}.fromkeys(['name', 'score', 'email', 'bio'], unknown)
+
+get
+
+d = dict(a=1, b=2, c=3)
+
+d.get(a) = 1
