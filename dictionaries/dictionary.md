@@ -70,3 +70,13 @@ d.pop("a") will remove the key / value.
 d.popitem() will remove something at random.
 
 d.update() will take a dictionary and add it to another dictionary.
+
+## Dictionary Comprehension
+
+{__: ___ for ___ in ___}
+
+numbers = dict(first = 1, second = 2, third = 3)
+
+squared numbers = {key:value ** 2 for key, value in numbers.items()}
+
+print(squared_numbers) # {'first':1, 'second':4, 'third':9}
