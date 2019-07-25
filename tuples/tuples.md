@@ -13,3 +13,19 @@ locations = {
 }
 
 they can be used as keys in dictionary. 
+
+### Two built in methods 
+
+Looping: Can use a for loop 
+
+for name in names:
+    print(name)
+
+nothing is really different 
+
+.count returns number of times a value appears in a tuple x.count('a')
+
+.index returns the index at which a value is found in a tuple x.index('b') if it isn't find, it will return an error.
+
+Can nest and also use slices in tuples. 
+
